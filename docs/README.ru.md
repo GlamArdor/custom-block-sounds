@@ -1,8 +1,8 @@
-# Custom Block Sounds (Fabric, Minecraft 1.21–1.21.11)
+﻿# Custom Block Sounds (Fabric, Minecraft 1.21–1.21.11)
 
 Автор: **Glam_Ardor**
 
-*English version: [README.md](README.md).*
+*English version: [README.md](../README.md).*
 
 Клиентский мод, позволяющий ресурспакам подменять звуки взаимодействия с блоками
 (**break / fall / hit / idle / place / step**) без изменения ванильных файлов звуков.
@@ -118,7 +118,7 @@ assets/reign/sounds/custom/glass_walk.ogg
 и затем используются в blockmap как `sound=reign:glass_walk`.
 
 Готовый blockmap, где задействованы все возможности мода, лежит в
-[docs/example-blockmap.json](docs/example-blockmap.json).
+[example-blockmap.json](example-blockmap.json).
 
 ## Замечания и ограничения
 

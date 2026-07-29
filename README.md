@@ -13,8 +13,6 @@ This reads one file out of your resource pack and matches sounds to **blockstate
 
 **Client-side.** The server needs nothing, which is the point: this was written for servers running plugin cores you can't add mods to.
 
-*Русская версия этого файла: [README.ru.md](README.ru.md).*
-
 ## The file
 
 Every enabled resource pack is searched for:
