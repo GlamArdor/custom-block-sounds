@@ -1,0 +1,15 @@
+{
+	"customblocksounds:ambient": "idle_samples=64,idle_radius=24,idle_max_per_second=4",
+
+	"minecraft:brown_mushroom_block[down=false,east=false,north=false,south=false,up=false,west=true]": "sound=minecraft:block.sand.break,type=break,volume=1.0,pitch=0.8",
+	"minecraft:brown_mushroom_block[down=false,east=false,north=false,south=false,up=false,west=true]": "sound=minecraft:block.sand.fall,type=fall",
+	"minecraft:brown_mushroom_block[down=false,east=false,north=false,south=false,up=false,west=true]": "sound=minecraft:block.sand.hit,type=hit",
+	"minecraft:brown_mushroom_block[down=false,east=false,north=false,south=false,up=false,west=true]": "sound=minecraft:block.amethyst_block.chime,type=idle,volume=0.7,idle_chance=0.5,idle_cooldown=4,idle_pitch_min=0.7,idle_pitch_max=1.4,idle_category=ambient",
+	"minecraft:brown_mushroom_block[down=false,east=false,north=false,south=false,up=false,west=true]": "sound=minecraft:block.sand.place,type=place",
+	"minecraft:brown_mushroom_block[down=false,east=false,north=false,south=false,up=false,west=true]": "sound=minecraft:block.sand.step,type=step,volume=1.5,pitch=1.2",
+
+	"minecraft:brown_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=false]": "sound=reign:glass_walk,type=walk,volume=0.8",
+	"minecraft:brown_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=false]": "sound=reign:glass_place,type=place",
+	"minecraft:brown_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=false]": "sound=reign:glass_break,type=break,pitch=1.1",
+	"minecraft:brown_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=false]": "sound=minecraft:block.sand.idle,type=idle,idle_chance=1.0,idle_cooldown=5,idle_air_above=true,idle_sky=true,idle_cluster=3,idle_time=day,idle_weather=clear"
+}

@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "customblocksounds",
+	"version": "${version}",
+	"name": "Custom Block Sounds",
+	"description": "Lets resource packs override block interaction sounds (break, fall, hit, idle, place, step) via assets/customblocksounds/config/blockmap.json.",
+	"authors": [
+		"Glam_Ardor"
+	],
+	"license": "MIT",
+	"icon": "assets/customblocksounds/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.reign.customblocksounds.CustomBlockSoundsClient"
+		]
+	},
+	"mixins": [
+		"customblocksounds.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": ">=1.21 <=1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "com.reign.customblocksounds.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"AbstractBlockMixin",
+		"AbstractBlockStateMixin",
+		"ClientPlayNetworkHandlerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
