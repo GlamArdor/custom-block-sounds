@@ -1,4 +1,4 @@
-﻿# Custom Block Sounds (Fabric, Minecraft 1.21–1.21.11)
+﻿# Custom Block Sounds (Fabric, Minecraft 1.21–1.21.11 и 26.2–26.3)
 
 Автор: **Glam_Ardor**
 
@@ -152,6 +152,15 @@ gradlew build
 `minecraft_version=1.21.11`, `yarn_mappings=1.21.11+build.6`,
 `fabric_api_version=0.141.4+1.21.11`, `loom_version=1.15.5` и Gradle 9.5.1
 в `gradle/wrapper/gradle-wrapper.properties` (Loom 1.15 требует Gradle 9).
+
+### Minecraft 26.2–26.3
+
+С 26.1 игра выходит без обфускации и требует Java 25, yarn и intermediary для неё нет,
+поэтому под 26.x собирается отдельный jar из `versions/26` (имена Mojang, Gradle 9.5.1,
+Loom 1.17.17, JDK 25 скачивается сам через toolchain): `cd versions/26 && ./gradlew build`,
+результат `versions/26/build/libs/customblocksounds-1.0.1+26.jar`. Собирается против 26.2,
+тот же jar работает на 26.3. `versions/26/run-test.sh` поднимает dev-клиент и проверяет, что
+миксины вшиты; для 26.3 – с `-Pminecraft_version=26.3 -Pfabric_api_version=0.163.0+26.3`.
 
 ## Лицензия
 

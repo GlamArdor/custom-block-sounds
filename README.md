@@ -14,7 +14,7 @@ Custom Block Sounds is a lightweight **client-side** Fabric mod that lets resour
 - Multiple resource packs merge naturally - the pack higher in the list wins
 - Invalid entries never crash the game - they are skipped with a clear warning in the log
 
-Works on **Minecraft 1.21 - 1.21.11** with one jar. Requires **Fabric API**. Fully client-side - safe to join any server.
+Works on **Minecraft 1.21 - 1.21.11** with one jar and on **Minecraft 26.2 - 26.3** with a second one (the `+26` file). Requires **Fabric API**. Fully client-side - safe to join any server.
 
 ---
 
